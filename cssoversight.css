@@ -1,0 +1,330 @@
+/* Learned how to do CSS comments from https://www.w3schools.com/css/css_comments.asp */
+
+body {
+    font-family: "Laila", sans-serif;
+    background-color: #fffdf9;
+    color: #222222;
+}
+#header {
+    text-align: center;
+    padding: 20px;
+    background-color: #fffdf9;
+}
+#header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+/* learned about flex containers from https://www.w3schools.com/css/css3_flexbox_container.asp */
+
+nav li {
+    margin: 10px;
+}
+nav a {
+    text-decoration: none;
+    color: #222222;
+    padding: 8px 12px;
+    border-radius: 999px;
+}
+nav a:hover {
+    color: #e56e0c;
+}
+.hero {
+    background-color: #d4eaa8;
+    text-align: center;
+    padding: 25px;
+}
+
+#main {
+    width: 90%;
+    max-width: 2000px;
+    margin: 20px auto;
+    background-color: #fffdf9;
+}
+/* Learned how to align an image beside text from https://www.w3schools.com/howto/howto_css_image_side_by_side.asp */
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 74px;
+    flex-wrap: wrap;
+    background-color: #cdade6;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.05);
+}
+/* Learned how to do boxshadow from https://www.w3schools.com/css/css3_shadows_box.asp */
+.intro img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.intro p {
+    flex: 1;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+    margin: 10px 0;
+}
+
+.places-ive-been {
+    background-color: #c8dce3;
+    border-radius: 12px;
+    padding: 25px;
+    margin: 40px auto;
+    max-width: 900px;
+    text-align: center;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.05);
+}
+
+#map embed {
+    width: 100%;
+    height: 600px;
+    border-radius: 12px;
+}
+#map {
+    display: flex;
+    height: fit-content;
+    justify-content: center;
+    margin: 20px;
+    max-width: 900px;
+}
+#map-legend {
+    background-color: #f9f9f9;
+    border: 1px solid white;
+    border-radius: 12px;
+    padding: 10px;
+    margin-top: 15px;
+}
+.favorite-journeys {
+    background-color: #e56e0c;
+    border-radius: 12px;
+    padding: 10px;
+    margin: 40px auto;
+    max-width: 900px;
+    text-align: center;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.05);
+}
+.journey {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 12px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.journey img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 8px;
+}
+/* learned object-fit from https://www.w3schools.com/css/css3_object-fit.asp */
+
+.journey h3 {
+    margin: 10px;
+    color: #222222;
+}
+
+.journey p {
+    color: #222222;
+}
+
+#meetthewanderer {
+    background-color: #d4eaa8;
+    text-align: center;
+    padding: 25px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 900px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.05);
+}
+#meetthewanderer img {
+    width: 100%;
+}
+
+#howitallbegan {
+    background-color: #cdade6;
+    text-align: center;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.05);
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+#fun-facts h2 {
+    text-align: center;
+}
+#fun-facts {
+    background-color: #e56e0c;
+    text-align: start;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.05);
+    max-width: 900px;
+    margin: 20px auto;
+}
+#values h2 {
+    text-align: center;
+}
+
+#values {
+    background-color: #c8dce3;
+    text-align: start;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.05);
+    max-width: 900px;
+    margin: 20px auto;
+}
+#intro-m-m {
+    background-color: #cdade6;
+    padding: 25px;
+    border-radius: 10px;
+    margin: 40px auto;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.05);
+    max-width: 900px;
+}
+#where-ive-been {
+    background-color: #c8dce3;
+    border-radius: 12px;
+    padding: 25px;
+    margin: 40px auto;
+    max-width: 900px;
+    text-align: center;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.05);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+th,
+td {
+    border: 1px solid white;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #cdade6;
+    font-weight: bold;
+}
+
+tr {
+    background-color: #d4eaa8;
+}
+
+#europe,
+#americas,
+#africa {
+    background-color: #d4eaa8;
+    border: 1px solid white;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 40px auto;
+    max-width: 900px;
+    
+}
+
+#moments h2 {
+    text-align: center;
+}
+#moments {
+    background-color: #c8dce3;
+    border-radius: 12px;
+    padding: 25px;
+    margin: 40px auto;
+    max-width: 900px;
+    text-align: start;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.05);
+}
+#gallery-intro {
+    margin: 30px auto;
+    background-color: #c8dce3;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 900px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.05);
+}
+/* Used https://www.w3schools.com/cssref/pr_grid-template-columns.php as a reference to make grids */
+.photo-group {
+    background-color: #e56e0c;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 30px auto;
+    max-width: 900px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.05);
+}
+.photo-card {
+    border-radius: 10px;
+    padding: 8px;
+    background: white;
+    max-width: 100%;
+    margin: 20px auto;
+
+}
+
+.photo-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.photo-card figcaption {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.4;
+}
+
+.photo-card figcaption strong {
+    display: block;
+    color: #111;
+}
+
+#footer {
+    background-color: #fffdf9;
+    text-align: center;
+    padding: 15px;
+    font-size: 15px;
+    color: #555;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.purple {
+    color: #cdade6;
+}
+
+.green {
+    color: #d4eaa8;
+}
+
+.orange {
+    color: #e56e0c;
+}
+
+.legend-list {
+    list-style-position: inside;
+    padding-left: 0;
+    margin-left: 0;
+}
